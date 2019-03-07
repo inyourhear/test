@@ -1,0 +1,397 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+html
+{
+	background: rgba(0,55,99,1);/*rgba比rgb多一个透明度的元素取值是0到1*/
+	padding: 0;/*设定内边距为0*/
+	width: 1425px;
+}
+
+body
+{
+	margin: 0;/*外边距为0*/
+	width: 1425px;
+}
+
+.list div
+{
+	float: right;/*使列表向左浮动，即横向*/
+	border: 0;
+	top: 0px;
+}
+
+.list img
+{
+	filter: opacity:(0.4);/*设置图片的透明度css3内容*/
+}
+
+.list ul
+{
+	text-align: center;/*使列表里面的文字居中*/
+	display:inline-block;/*使之变成行内和块级元素*/
+}
+
+.list li
+{
+	display:inline-block;/*使之变成行内和块级元素*/
+	font-family: FZCHSJW;/*css设定字体样式的属性*/
+	font-weight: 800;/*字体加粗*/
+	color: #b0bbc0;/*字体颜色*/
+	font-size: 3em;/*字体大小*/
+}
+
+.list a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.max
+{
+	position: relative;
+	background-image: url(页面背景.jpg);
+	width: 1425px;
+	top: 10px;
+	height: 3300px;
+}
+
+.one
+{
+	position: relative;
+	left: 25%;
+	width: 47%;
+}
+
+.one img
+{
+	max-width: 100%;
+}
+
+.tow
+{
+	position: relative;
+	top: 30px;
+	left: 18%;
+	width: 60%;
+}
+
+.tow img
+{
+	max-width: 100%;
+}
+
+.three
+{
+	position: relative;
+	top: 100px;
+	left: 4%;
+	width: 15%;
+}
+
+.three img
+{
+	max-width: 100%;
+}
+
+.four
+{
+	position: relative;
+	top: 150px;
+	left: 4%;
+	width: 90%;
+	height: 380px;
+}
+
+.four1
+{
+	position: relative;
+	width: 40%;
+	height: 89%;
+	left: 5%;
+	background-color: rgba(138,210,240,0.4);
+}
+
+.four2
+{
+	position: absolute;
+	width: 75%;
+	height: 69%;
+	top: 50px;
+	left: 120px;
+	padding: 30px;
+	border: 0.4em solid blue;/*#3399cc*/
+}
+
+.four2 p
+{
+	width: 30%;
+	height: 100%;
+	color: black;
+	font-size: 0.75em;
+	word-wrap:break-word;
+	word-break:break-all;
+	overflow :hidden ;
+}
+
+.four3
+{
+	position: absolute;
+	width: 45%;
+	height: 100%;
+	top: 30px;
+	left: 40%;
+}
+
+.four3 img
+{
+	max-width: 100%;
+	height: 100%;
+	border: 0.4em solid blue;/*#3399cc*/
+}
+
+.four4
+{
+	position: absolute;
+	width: 8%;
+	bottom: -80px;
+	left: 60%;
+	text-align: center;
+	background-color: rgba(138,210,240,0.8);
+}
+
+.four4 a
+{
+	text-decoration: none;
+}
+
+.five
+{
+	position: relative;
+	width: 15%;
+	left: 4%;
+	top: 250px;
+}
+
+.five img
+{
+	width: 100%;
+}
+
+.six
+{
+	position: relative;
+	top: 250px;
+	width: 90%;
+	height: 550px;
+	left: 4%;
+}
+
+.six1
+{
+	position: absolute;
+	width: 25%;
+	height: 100%;
+}
+
+.six1 img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.six2
+{
+	position: relative;
+	width: 58%;
+	height: 80%;
+	left: 40%;
+}
+
+.six2 img
+{
+	width: 100%;
+	height: 100%;
+	border: 0.4em double blue;
+}
+
+.six3
+{
+	position: relative;
+	width: 15%;
+	height: 80%;
+	left: 3%;
+	top: -350px;
+}
+
+.six3 img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.six4
+{
+	position: absolute;
+	width: 30%;
+	bottom: 50px;
+	right: 15%;
+	background-color: rgba(138,210,240,0.8);
+}
+
+.six4 p
+{
+	width: 100%;
+}
+
+.six5
+{
+	position: absolute;
+	width: 8%;
+	bottom: 20px;
+	right: 27%;
+	background-color: rgba(138,210,240,0.8);
+	text-align: center;
+}
+
+.six5 a
+{
+	text-decoration: none;
+}
+
+.seven
+{
+	position: relative;
+	width: 15%;
+	left: 4%;
+	top: 300px;
+}
+
+.seven img
+{
+	width: 100%;
+}
+
+.eight
+{
+	position: relative;
+	width: 90%;
+	height: 700px;
+	left: 4%;
+	top: 350px;
+}
+
+.eight1
+{
+	position: absolute;
+	width: 50%;
+	height: 60%;
+	right: 50px;
+	top: 22%;
+}
+
+.eight1 img
+{
+	width: 100%;
+	height: 100%;
+	border: 0.4em solid blue;
+}
+
+.eight2
+{
+	position: absolute;
+	width: 62%;
+}
+
+.eight2 img
+{
+	width: 100%;
+}
+
+.eight3
+{
+	position: absolute;
+	width: 8%;
+	bottom: 70px;
+	right: 24%;
+	text-align: center;
+	background-color: rgba(138,210,240,0.8);
+}
+
+.eight3 a
+{
+	text-decoration: none;
+}
+
+.nine
+{
+	position: relative;
+	width: 15%;
+	left: 4%;
+	top: 400px;
+}
+
+.nine img
+{
+	width: 100%;
+}
+
+.ten
+{
+	position: relative;
+	width: 75%;
+	top: 450px;
+	left: 11%;
+}
+
+.ten img 
+{
+	width: 100%;
+}
+
+.eleven
+{
+	position: relative;
+	width: 4%;
+	height: 3%;
+	top: 190px;
+	left: 170px;
+}
+
+.eleven a
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+.bottom
+{
+	position: relative;
+	height: 120px;
+	width: 40%;
+	top: 30px;
+	left: 4%;
+}
+
+.bottom p
+{
+	line-height: 30px;
+	color: white;
+}
+
+.return
+{
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+}
+
+/*以下是所有a标签的伪类*/
+a:link {color: white}/*表示鼠标不在上面的时候是白色*/
+a:visited {color: white}/*表示访问过的时候仍程白色（纯粹喜欢白色）*/
+a:hover {color: #FF00FF}/*表示鼠标悬停时呈现紫色*/
+a:active {color: #0000FF}/*表示在鼠标点击与释放之间呈现紫色*/
